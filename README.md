@@ -4,6 +4,9 @@ Break bricks, test your reflexes, and watch a spectacular fireworks show when yo
 
 🕹️ About
 Grid Blazer is inspired by classic breakout-style games. It was created as part of the Stanford Code in Place program. The game features:
+
+A neon-style grid background.
+
 Smooth paddle and ball mechanics.
 
 Multiple bricks to break across several rows.
