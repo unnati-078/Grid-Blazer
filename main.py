@@ -3,7 +3,7 @@ import time
 import random
 import math
 
-# Game settings
+#game settings
 CANVAS_WIDTH = 700
 CANVAS_HEIGHT = 500
 PADDLE_WIDTH = 120
@@ -14,7 +14,7 @@ BALL_SPEED = 3
 DELAY = 0.002
 LIVES = 3
 
-# Firework settings
+#fireworks
 PARTICLES_PER_FIREWORK = 20
 FIREWORK_GROUPS = 6
 GRAVITY = 0.12
