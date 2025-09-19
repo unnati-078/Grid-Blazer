@@ -95,7 +95,7 @@ def launch_firework(canvas, x, y):
 def firework_preview():
     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
     canvas.create_rectangle(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT, color="black")
-    canvas.create_text(CANVAS_WIDTH/2, 250, text="✨ YOU WON! ✨", font="Courier", font_size=20, color="#ffffcc", anchor='center')
+    canvas.create_text(CANVAS_WIDTH/2, 250, text="You won!", font="Courier", font_size=20, color="#ffffcc", anchor='center')
 
     for _ in range(FIREWORK_GROUPS):
         fireworks_in_batch = random.randint(2, 3)
